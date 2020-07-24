@@ -1,0 +1,106 @@
+#hero {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  background: $white-color;
+  font-weight: 400;
+  color: $dark-blue-text;
+  padding: 0rem 5.6rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+
+  // If you want to set a background image on the hero section, uncomment these with yout custom image
+
+  /* background: url("/src/assets/[your-image].png");
+  background-position: center;
+  background-size: cover; */
+
+  @include respond(phone) {
+    padding: 0rem $default-font-size;
+  }
+
+  .hero-title {
+    font-size: 5.6rem;
+    font-weight: 700;
+    margin-bottom: 3.2rem;
+    text-align: left;
+
+    @include respond(tab-land) {
+      font-size: 4rem;
+    }
+    @include respond(tab-port) {
+      font-size: 3.6rem;
+      text-align: center;
+    }
+    @include respond(phone) {
+      font-size: 3.5rem;
+      line-height: 1.5;
+    }
+    @include respond(phone-xs) {
+      font-size: 2.8rem;
+    }
+  }
+
+
+  .hero-social-links {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: left;
+
+    @include respond(tab-port) {
+      justify-content: center;
+    }
+
+    & a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: $dark-blue-text;
+      font-size: 3rem;
+      width: 5rem;
+      height: 5rem;
+      margin-bottom: $default-font-size;
+      margin-right: 15px;
+      margin-left: 15px;
+      transition: all 0.2s ease-in;
+      border-radius: 10px;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+
+      @include respond(phone) {
+        font-size: 2rem;
+        width: 4rem;
+        height: 4rem;
+        margin-right: 7px;
+        margin-left: 7px;
+      }
+    }
+
+  }
+
+  
+}
+
+.about-section i {
+    position:absolute;                 
+    bottom:0;
+    left: 50%;  
+    color: black;
+    margin: 1rem 0 $default-font-size;
+    transition: all 0.2s ease-in;
+    margin-left: -$default-font-size-half;
+    cursor: pointer;
+  
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
