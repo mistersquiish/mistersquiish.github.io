@@ -87,6 +87,20 @@
 
   }
 
+  .icon-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  // Found on https://icomoon.io/app/#/select
+  .icon-tinder {
+    height: 60%;
+    width: 60%;
+    filter: hue-rotate(255);
+  }
+
   
 }
 

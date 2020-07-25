@@ -22,6 +22,28 @@ export const heroData = {
   name: 'Henry Vuong',
   subtitle: '',
   cta: '',
+  networks: [
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/henry-vuong-texas/',
+    },
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/mistersquiish',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
+      url: 'https://www.facebook.com/profile.php?id=100003945593154',
+    },
+    {
+      id: nanoid(),
+      name: 'tinder',
+      url: '/personal-website-v2//tinder',
+    }
+  ],
 };
 
 // ABOUT DATA
@@ -133,27 +155,6 @@ export const contactData = {
   cta: '',
   btn: '',
   email: 'henryvuong@utexas.edu',
-};
-
-// FOOTER DATA
-export const footerData = {
-  networks: [
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/henry-vuong-texas/',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/mistersquiish',
-    },
-    {
-      id: nanoid(),
-      name: 'facebook',
-      url: 'https://www.facebook.com/profile.php?id=100003945593154',
-    }
-  ],
 };
 
 // Github start/fork buttons

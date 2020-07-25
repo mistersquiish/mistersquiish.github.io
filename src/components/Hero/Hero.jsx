@@ -3,17 +3,15 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
+import tinder from '../../images/tinder.png';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
   
-  const { title, name, subtitle, cta } = hero;
+  const { title, name, subtitle, cta, networks } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-
-  const { footer } = useContext(PortfolioContext);
-  const { networks } = footer;
 
   useEffect(() => {
     if (window.innerWidth > 769) {
@@ -42,17 +40,33 @@ const Header = () => {
             {networks &&
               networks.map((network) => {
                 const { id, name, url } = network;
-                return (
-                  <a
+
+                if (name === "tinder") {
+                  return(
+                    <a
                     key={id}
                     href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
                     rel="noopener noreferrer"
-                    target="_blank"
                     aria-label={name}
-                  >
-                    <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
-                  </a>
-                );
+                    >
+                    <div class="icon-box">
+                      <img class="icon-tinder" src={tinder}></img>
+                    </div>
+                    </a>
+                  )
+                } else {
+                  return (
+                    <a
+                      key={id}
+                      href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      aria-label={name}
+                    >
+                      <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                    </a>
+                  );
+                }
               })}
           </div>
         </Fade>

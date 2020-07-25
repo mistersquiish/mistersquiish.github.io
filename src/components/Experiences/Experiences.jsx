@@ -44,7 +44,10 @@ const Experiences = () => {
                     <div class="img-hover-zoom-large">
                       <img src={img} class="image-large" alt={organization}/>
                     </div>
-                    <a class="nav-item" href={url} target="_blank">{organization}</a>
+                    <div class="organization-container">
+                      <a class="nav-item" href={url} target="_blank">{organization}</a>
+                    </div>
+                    
                     <br/>
 
                     <h3>{title}</h3>

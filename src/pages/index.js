@@ -13,9 +13,9 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
+        <title>{title || 'Henry\'s Personal Website'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <meta name="description" content={description || 'Henry\'s Personal Website'} />
         <meta property='og:image' content={utaustin}></meta>
       </Helmet>
       <App />
