@@ -1,11 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
-import Fade from 'react-reveal/Fade';
-import Tilt from 'react-tilt';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import ProjectImg from '../Image/ProjectImg';
 
 const Experiences = () => {
   const { experiences } = useContext(PortfolioContext);

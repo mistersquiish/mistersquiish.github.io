@@ -19,7 +19,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Henry Vuong',
+  name: 'Henry',
   subtitle: '',
   cta: '',
   networks: [
@@ -41,7 +41,7 @@ export const heroData = {
     {
       id: nanoid(),
       name: 'tinder',
-      url: '/personal-website-v2//tinder',
+      url: '/tinder',
     }
   ],
 };
@@ -49,9 +49,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Recent graduate of UT Austin and currently a software engineer intern at Amazon.',
+  paragraphOne: 'Recent UT Austin grad and currently a software engineer intern at Amazon.',
   paragraphTwo: ' ',
-  paragraphThree: 'I like hanging out with my friends, playing & watching sports, and cooking for myself and friends. Favorite recipes include: Red-braised Chinese pork belly, grilled salmon, all things salsa, and tacos.',
+  paragraphThree: 'In free time I enjoy playing basketball, learning Spanish, and cooking for my friends (favorite food show is Bon Appétit). Favorite recipes include: Red-braised Chinese pork belly, grilled salmon, all things salsa, and tacos.',
   resume: 'https://www.dropbox.com/s/97ak6zoltoy8ok7/HenryVuongResume.pdf?dl=0', // if no resume, the button will not show up
 };
 
@@ -132,7 +132,7 @@ export const experiencesData = [
     url: 'https://uhs.uisd.net/',
     date: 'Class of 2016',
     color: '#F15A29',
-    description: "Met some of my bestest friends here. I was the muffin man, I was the \"one-stroke-wonder\" on the swim team, and I was part of the best robotics club. Thank you Mrs. Rodriguez and Mr. Torres for believing in me."
+    description: "Met some of my best friends here. I was the muffin man, I was the \"one-stroke-wonder\" on the swim team, and I was part of the best robotics club. Thank you Mrs. Rodriguez and Mr. Torres for believing in me."
   }
 ];
 
@@ -147,6 +147,7 @@ export const projectsData = [
     info2: 'Never really expected it to take off, but it was fun learning the SwiftUI framework and actually launching it.',
     url: 'https://hungrynow.herokuapp.com/',
     repo: 'https://github.com/mistersquiish/HungryNow', // if no repo, the button will not show up
+    achievement: "37 Downloads (mostly friends and family)"
   }
 ];
 
