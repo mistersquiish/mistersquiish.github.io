@@ -11,9 +11,9 @@ import hungrynow from '../images/hungrynow.png'
 
 // HEAD DATA
 export const headData = {
-  title: 'Henry Vuong | Software Engineer', // e.g: 'Name | Developer'
+  title: 'Henry Vuong | UT Austin Graduate', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Henry Vuong\'s Personal Website', // e.g: Welcome to my website
+  description: 'Originally from Laredo Texas, Henry attended The University of Texas at Austin (UT) and obtained a Bachelors in Business Administration in Management Information Systems (MIS). Henry is currently a software development engineer intern at Amazon. This is Henry\s personal website to host all his random content.', // e.g: Welcome to my website
 };
 
 // HERO DATA
