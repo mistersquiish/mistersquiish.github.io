@@ -4,19 +4,18 @@ import resume from '../static/resume.pdf';
 
 const ResumeDocument = () => {
   const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
 
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    if (window.innerWidth > 769) {
-      setIsDesktop(true);
-      setIsMobile(false);
-    } else {
+    if (window.innerWidth < 1297) {
       setIsMobile(true);
       setIsDesktop(false);
+    } else {
+      setIsDesktop(true);
+      setIsMobile(false);
     }
   }, []);
  
@@ -25,14 +24,15 @@ const ResumeDocument = () => {
   }
  
   return (
-    <div style={{display: "flex", justifyContent: "center"}}>
       <Document
         file={resume}
         onLoadSuccess={onDocumentLoadSuccess}
       >
-        <Page pageNumber={pageNumber} scale={isDesktop ? "1.5" : "1"}/>
+        <Page
+          pageNumber={1}
+          scale={isDesktop ? 1.5 : 1}
+          />
       </Document>
-    </div>
   );
 }
 

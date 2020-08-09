@@ -52,7 +52,7 @@ export const aboutData = {
   paragraphOne: 'Recent UT Austin grad and currently a software engineer intern at Amazon.',
   paragraphTwo: ' ',
   paragraphThree: 'In free time I enjoy playing basketball, learning Spanish, and cooking for my friends (favorite food show is Bon Appétit). Favorite recipes include: Red-braised Chinese pork belly, grilled salmon, all things salsa, and tacos.',
-  resume: 'https://www.dropbox.com/s/97ak6zoltoy8ok7/HenryVuongResume.pdf?dl=0', // if no resume, the button will not show up
+  resume: '/resume', // if no resume, the button will not show up
 };
 
 // EXPERIENCE DATA

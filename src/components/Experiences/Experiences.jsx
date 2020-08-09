@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext} from 'react';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 import { Container } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
@@ -6,19 +6,6 @@ import Title from '../Title/Title';
 
 const Experiences = () => {
   const { experiences } = useContext(PortfolioContext);
-
-  const [isDesktop, setIsDesktop] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    if (window.innerWidth > 769) {
-      setIsDesktop(true);
-      setIsMobile(false);
-    } else {
-      setIsMobile(true);
-      setIsDesktop(false);
-    }
-  }, []);
 
   return (
     
