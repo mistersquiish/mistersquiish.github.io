@@ -147,7 +147,7 @@ export const projectsData = [
     info2: 'Never really expected it to take off, but it was fun learning the SwiftUI framework and actually launching it.',
     url: 'https://hungrynow.herokuapp.com/',
     repo: 'https://github.com/mistersquiish/HungryNow', // if no repo, the button will not show up
-    achievement: "37 Downloads (mostly friends and family)"
+    achievement: "41 Downloads, 0 Active Users"
   }
 ];
 
