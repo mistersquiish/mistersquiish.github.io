@@ -6,8 +6,8 @@ import espn from '../images/espn.jpg';
 import unitedhs from '../images/unitedhs.jpg';
 import whu from '../images/whu.jpg';
 import amazon from '../images/amazon.jpg';
-
 import hungrynow from '../images/hungrynow.png';
+import maaAndDe from '../images/maa-and-de.png';
 
 // HEAD DATA
 export const headData = {
@@ -156,13 +156,25 @@ export const projectsData = [
       'Never really expected it to take off, but it was fun learning the SwiftUI framework and actually launching it.',
     url: 'https://hungrynow.herokuapp.com/',
     repo: 'https://github.com/mistersquiish/HungryNow', // if no repo, the button will not show up
-    achievement: '52 Downloads, 0 Active Users',
+    achievement: '54 Downloads, 0 Active Users',
+  },
+  {
+    id: nanoid(),
+    img: maaAndDe,
+    title: 'Maa and De',
+    info:
+      'An appreciation website for my parents where I document and tell their journy to America.',
+    info2:
+      'Was always something I wanted to do for my parents, and my parents really enjoyed the gift',
+    url: 'https://henryvuong.com/thank-you-mom-and-dad/',
+    repo: 'https://github.com/mistersquiish/thank-you-mom-and-dad', // if no repo, the button will not show up
+    achievement: '190+ Visitors', // 161 confirmed
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
+  cta: 'Feel free to email me with job opportunities or ideas.',
   btn: '',
   email: 'henryvuong@utexas.edu',
 };
