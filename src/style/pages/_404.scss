@@ -1,0 +1,7 @@
+.error-img {
+  width: 400px;
+
+  @include respond(phone) {
+    width: 300px;
+  }
+}

@@ -2,23 +2,52 @@ import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
+import tinder from '../../images/tinder.png';
 
-const Footer = () => {
+const Footer = ({footerMessage}) => {
   const { footer } = useContext(PortfolioContext);
+
+  const { networks } = footer;
 
   return (
     <footer className="footer navbar-static-bottom">
       <Container>
-        <span className="back-to-top">
-          <Link to="hero" smooth duration={1000}>
-            <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
-          </Link>
-        </span>
-        
+        <div className="social-links">
+          {networks &&
+            networks.map((network) => {
+              const { id, name, url } = network;
+              if (name === "tinder") {
+                return(
+                  <a
+                  key={id}
+                  href={url}
+                  rel="noopener noreferrer"
+                  aria-label={name}
+                  >
+                  <div class="icon-box">
+                    <img class="icon-tinder" src={tinder}></img>
+                  </div>
+                  </a>
+                )
+              } else {
+                return (
+                  <a
+                    key={id}
+                    href={url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    aria-label={name}
+                  >
+                    <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                  </a>
+                );
+              }
+            })}
+        </div>
         <hr />
-        <h5>Made with React, Gatsby, and Love in Laredo</h5>
+        <h5>{footerMessage}</h5>
         <p className="footer__text">
-          © {new Date().getFullYear()}
+          © {new Date().getFullYear()} Henry Vuong
         </p>
 
       </Container>

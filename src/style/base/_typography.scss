@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@500&display=swap');
 
 h1 {
   font-weight: 700;
@@ -6,7 +6,7 @@ h1 {
 
 p,
 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: $default-font-size;
 }
 
@@ -25,8 +25,9 @@ a:hover {
 .section-title {
   margin: 0px;
   margin-bottom: 4.5rem;
+  font-family: 'Raleway', sans-serif;
   font-size: $big-font-size;
-  font-weight: bold;
+  font-weight: medium;
   text-transform: uppercase;
 
   @include respond(phone) {

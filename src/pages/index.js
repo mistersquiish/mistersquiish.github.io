@@ -17,8 +17,8 @@ export default () => {
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Henry\'s Personal Website'} />
 
-        <meta property="og:title" content="Henry Vuong's Personal Website" />
-        <meta property="og:description" content="Welcome to my life! Feel free to look around." />
+        <meta property="og:title" content="Henry Vuong | UT Austin Graduate" />
+        <meta property="og:description" content="A place to host content I'm too embarrassed to post." />
         <meta property='og:image' content={utaustin}></meta>
       </Helmet>
       <App />

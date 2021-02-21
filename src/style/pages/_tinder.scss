@@ -1,0 +1,12 @@
+#tinder {
+  background-color: $white-color;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+
+  .tinder-text-container {
+    padding: 15px 0;
+  }
+}

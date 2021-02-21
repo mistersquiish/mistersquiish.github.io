@@ -14,7 +14,7 @@ export const headData = {
   title: 'Henry Vuong | UT Austin Graduate', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description:
-    'Originally from Laredo Texas, Henry attended The University of Texas at Austin (UT) and obtained a Bachelors in Business Administration in Management Information Systems (MIS). This is Henrys personal website to host all his random content.', // e.g: Welcome to my website
+    'Originally from Laredo Texas, Henry attended The University of Texas at Austin (UT) and obtained a Bachelors in Business Administration in Management Information Systems (MIS). This is Henrys personal website to host things he is comfortable with sharing.', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -23,37 +23,15 @@ export const heroData = {
   name: 'Henry',
   subtitle: '',
   cta: '',
-  networks: [
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/henry-vuong-texas/',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/mistersquiish',
-    },
-    {
-      id: nanoid(),
-      name: 'facebook',
-      url: 'https://www.facebook.com/profile.php?id=100003945593154',
-    },
-    {
-      id: nanoid(),
-      name: 'tinder',
-      url: '/tinder',
-    },
-  ],
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Recent UT Austin grad and will be working at Amazon in 2021.',
-  paragraphTwo: ' ',
-  paragraphThree:
-    'In free time I enjoy playing basketball, learning Spanish, and cooking for my friends (favorite food show is Bon Appétit). Favorite recipes include: Red-braised Chinese pork belly, grilled salmon, all things salsa, and tacos.',
+  paragraphOne: 'Recent UT Austin grad and will be working at Amazon as a Software Engineer in 2021.',
+  paragraphTwo: 'A self-proclaimed home chef, I enjoy watching Masterclass/Youtube cooking videos (favorite food show is Bon Appétit) and making home-cooked meals to nourish my friends and family. Popularly acclaimed dishes: Red-braised Chinese Pork Belly, Henry\'s Risotto, Guacamole, Roasted Salsa, European Style Beans, Chicken Schnitzel, Red Wine Braised Short Ribs, Oven Roasted Chicken',
+  paragraphThree: 'I like playing basketball There\'s just something about forgetting all your worries, deadlines, and whatever else is going on in your life, to focus on the simple task of putting a ball into a basket. It can be quite therapeutic and of course keeps me off my couch.',
+  paragraphFour: 'A big goal of mine is to learn Spanish. I primarily use Duolingo, spending about 20 minutes a day. Due to peer pressure, I listen to a lot of Reggaeton (although, I\'m not really proficient enough to understand most of it).',
   resume: '/resume', // if no resume, the button will not show up
 };
 
@@ -69,7 +47,7 @@ export const experiencesData = [
     date: 'Class of 2020',
     color: '#CC5500',
     description:
-      "My time at UT was one filled with laughter and joy but also struggles and success. I took my first CS class after my freshmen year, and I quickly fell in love with it. I soon began my career transition, and it has been a journey replete with pleasant surprises and moments more fulfilling than any previous. \nThe pickup basketball games, the late night 888 food runs, the adventures on 6th, and deep talks with my roommates are moments I will miss dearly (except waking up for class). UT helped me grow as a student but also helped me become a better and more mature person.\nThank you Mom and Dad, and Hook 'em 🤘.",
+      "I took my first CS class after my freshmen year, and I quickly fell in love with it. I soon began my career transition, and it has been a journey replete with pleasant surprises and moments more fulfilling than any previous. \nThe pickup basketball games, the late night 888 food runs, the adventures on 6th, and deep talks with my roommates are moments I will miss dearly (except waking up for class). UT helped me grow as a student but also helped me become a better and more mature person.\nThank you Mom and Dad, and Hook 'em 🤘.",
   },
   {
     id: nanoid(),
@@ -141,7 +119,7 @@ export const experiencesData = [
     date: 'Class of 2016',
     color: '#F15A29',
     description:
-      'Met some of my best friends here. I was the muffin man, I was the "one-stroke-wonder" on the swim team, and I was part of the best robotics club. Thank you Mrs. Rodriguez and Mr. Torres for believing in me.',
+      'I sold Kazoozles and muffins, I was the "one-stroke-wonder" on the swim team, and I was part of the best robotics club. Thank you Mrs. Rodriguez and Mr. Torres for believing in me.',
   },
 ];
 
@@ -154,7 +132,7 @@ export const projectsData = [
     info: 'iOS app to help remind users when their favorite restaurants were going to close.',
     info2:
       'Never really expected it to take off, but it was fun learning the SwiftUI framework and actually launching it.',
-    url: 'https://hungrynow.herokuapp.com/',
+    url: 'https://appadvice.com/app/hungrynow-app/1512893332',
     repo: 'https://github.com/mistersquiish/HungryNow', // if no repo, the button will not show up
     achievement: '54 Downloads, 0 Active Users',
   },
@@ -163,23 +141,54 @@ export const projectsData = [
     img: maaAndDe,
     title: 'Maa and De',
     info:
-      'An appreciation website for my parents where I document and tell their journy to America.',
+      'An appreciation website for my parents where I document and tell their journey to America.',
     info2:
-      'Was always something I wanted to do for my parents, and my parents really enjoyed the gift',
+      'Was always something I wanted to do for my parents, and my parents really enjoyed the gift.',
     url: 'https://henryvuong.com/thank-you-mom-and-dad/',
     repo: 'https://github.com/mistersquiish/thank-you-mom-and-dad', // if no repo, the button will not show up
     achievement: '190+ Visitors', // 161 confirmed
   },
 ];
 
-// CONTACT DATA
-export const contactData = {
-  cta: 'Feel free to email me with job opportunities or ideas.',
-  btn: '',
-  email: 'henryvuong@utexas.edu',
-};
-
 // Github start/fork buttons
 export const githubButtons = {
   isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
+
+// FOOTER DATA
+export const footerData = {
+  networks: [
+    {
+      id: nanoid(),
+      name: 'envelope',
+      url: 'mailto:henryvuong@utexas.edu',
+    },
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/henry-vuong-texas/',
+    },
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/mistersquiish',
+    },
+    // {
+    //   id: nanoid(),
+    //   name: 'facebook',
+    //   url: 'https://www.facebook.com/profile.php?id=100003945593154',
+    // },
+    {
+      id: nanoid(),
+      name: 'tinder',
+      url: '/tinder',
+    },
+  ],
+}
+
+// CONTACT DATA
+export const contactData = {
+  whereToFind: "Due to COVID, I'm back at home usually trying out a new recipe in mom's kitchen or having friends over in my parent's backyard.",
+  contact: "Otherwise, best way to reach me is through my email: ",
+  email: 'henryvuong@utexas.edu',
+}

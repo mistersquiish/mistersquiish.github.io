@@ -25,11 +25,15 @@
     padding: 0rem $default-font-size;
   }
 
+  .intro-container {
+    padding: 0 0 80px 0;
+  }
+
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
-    text-align: left;
+    // text-align: left;
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -47,64 +51,7 @@
     }
   }
 
-
-  .hero-social-links {
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    justify-content: left;
-
-    @include respond(tab-port) {
-      justify-content: center;
-    }
-
-    & a {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      background-color: $dark-blue-text;
-      font-size: 3rem;
-      width: 5rem;
-      height: 5rem;
-      margin-bottom: $default-font-size;
-      margin-right: 15px;
-      margin-left: 15px;
-      transition: all 0.2s ease-in;
-      border-radius: 10px;
-
-      &:hover {
-        transform: translateY(-2px);
-      }
-
-      @include respond(phone) {
-        font-size: 2rem;
-        width: 4rem;
-        height: 4rem;
-        margin-right: 7px;
-        margin-left: 7px;
-      }
-    }
-
-  }
-
-  .icon-box {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  // Found on https://icomoon.io/app/#/select
-  .icon-tinder {
-    height: 60%;
-    width: 60%;
-    filter: hue-rotate(255);
-  }
-
-  
-}
-
-.about-section i {
+  .about-section i {
     position:absolute;                 
     bottom:0;
     left: 50%;  
@@ -118,3 +65,4 @@
       transform: translateY(-2px);
     }
   }
+}

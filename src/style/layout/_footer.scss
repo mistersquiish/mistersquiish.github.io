@@ -1,7 +1,7 @@
 .footer {
   background-color: $dark-grey;
   color: $white-color;
-  padding: 4.8rem 0;
+  padding: 1rem 0;
 
   @include respond(phone) {
     border: 0px;
@@ -45,4 +45,41 @@
   &:hover {
     transform: translateY(-2px);
   }
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $white-color;
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+    margin: $default-font-size $default-font-size;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
+
+
+.icon-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// Found on https://icomoon.io/app/#/select
+.icon-tinder {
+  height: 60%;
+  width: 60%;
+  filter: hue-rotate(255);
 }

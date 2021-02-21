@@ -7,7 +7,7 @@ import profileImage from '../../images/profile.jpg';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { paragraphOne, paragraphTwo, paragraphThree, paragraphFour } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -49,7 +49,10 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
-                {resume && (
+                <p className="about-wrapper__info-text">
+                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </p>
+                {/* {resume && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
@@ -60,7 +63,7 @@ const About = () => {
                       Resume
                     </a>
                   </span>
-                )}
+                )} */}
               </div>
             </Fade>
           </Col>

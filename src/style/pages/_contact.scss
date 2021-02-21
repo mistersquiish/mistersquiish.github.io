@@ -1,0 +1,20 @@
+#contact {
+  background-color: $white-color;
+  color: $dark-blue-text;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .contact-text-container {
+    padding: 50px 30px;
+    width: 600px;
+
+    @include respond(phone) {
+      width: 375px;
+
+      padding: 50px 10px;
+    }
+  }
+}
