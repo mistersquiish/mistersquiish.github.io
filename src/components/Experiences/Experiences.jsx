@@ -24,12 +24,12 @@ const Experiences = () => {
                   style={{ color: color }}
                   dateInnerStyle={{ background: color }}
                 >
-                  <div class="card">
-                    <div class="img-hover-zoom-large">
-                      <img src={img} class="image-large" alt={organization}/>
+                  <div className="card">
+                    <div className="img-hover-zoom-large">
+                      <img src={img} className="image-large" alt={organization}/>
                     </div>
-                    <div class="organization-container">
-                      <a class="nav-item" href={url} target="_blank">{organization}</a>
+                    <div className="organization-container">
+                      <a className="nav-item" href={url} target="_blank" rel="noreferrer">{organization}</a>
                     </div>
                     
                     <br/>

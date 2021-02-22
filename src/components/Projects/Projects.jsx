@@ -7,6 +7,7 @@ import Title from '../Title/Title';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
+  console.log(projects)
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -27,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id, achievement } = project;
+            const { title, info, info2, url, img, id, achievement } = project;
 
             return (
               <Row key={id}>
@@ -99,8 +100,7 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            {/* <ProjectImg alt={title} filename={img} /> */}
-                            <img src={img} id="project-image"></img>
+                            <img src={img} id="project-image" alt="project image"></img>
                           </div>
                         </Tilt>
                       </a>

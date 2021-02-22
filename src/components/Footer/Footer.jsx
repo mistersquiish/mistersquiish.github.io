@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
-import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import tinder from '../../images/tinder.png';
 
@@ -24,8 +23,8 @@ const Footer = ({footerMessage}) => {
                   rel="noopener noreferrer"
                   aria-label={name}
                   >
-                  <div class="icon-box">
-                    <img class="icon-tinder" src={tinder}></img>
+                  <div className="icon-box">
+                    <img className="icon-tinder" src={tinder} alt="tinder image"></img>
                   </div>
                   </a>
                 )

@@ -8,6 +8,7 @@ import whu from '../images/whu.jpg';
 import amazon from '../images/amazon.jpg';
 import hungrynow from '../images/hungrynow.png';
 import maaAndDe from '../images/maa-and-de.png';
+import fifty4090club from '../images/504090club.png';
 
 // HEAD DATA
 export const headData = {
@@ -147,6 +148,18 @@ export const projectsData = [
     url: 'https://henryvuong.com/thank-you-mom-and-dad/',
     repo: 'https://github.com/mistersquiish/thank-you-mom-and-dad', // if no repo, the button will not show up
     achievement: '190+ Visitors', // 161 confirmed
+  },
+  {
+    id: nanoid(),
+    img: fifty4090club,
+    title: '50-40-90 Club',
+    info:
+      'A website to track who is on track for a 50-40-90 NBA shooting season.',
+    info2:
+      'Built using React, Gatsby, Python for scheduled updates, and Firebase',
+    url: 'https://504090club.info/',
+    repo: '', // if no repo, the button will not show up
+    achievement: '', // 161 confirmed
   },
 ];
 
