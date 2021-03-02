@@ -6,6 +6,7 @@ import espn from '../images/espn.jpg';
 import unitedhs from '../images/unitedhs.jpg';
 import whu from '../images/whu.jpg';
 import amazon from '../images/amazon.jpg';
+import amazon2 from '../images/amazon2.jpg';
 import hungrynow from '../images/hungrynow.png';
 import maaAndDe from '../images/maa-and-de.png';
 import fifty4090club from '../images/504090club.png';
@@ -29,15 +30,27 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Recent UT Austin grad and will be working at Amazon as a Software Engineer in 2021.',
+  paragraphOne: 'Currently a software engineer working on Prime Video at Amazon',
   paragraphTwo: 'A self-proclaimed home chef, I enjoy watching Masterclass/Youtube cooking videos (favorite food show is Bon Appétit) and making home-cooked meals to nourish my friends and family. Popularly acclaimed dishes: Red-braised Chinese Pork Belly, Henry\'s Risotto, Guacamole, Roasted Salsa, European Style Beans, Chicken Schnitzel, Red Wine Braised Short Ribs, Oven Roasted Chicken',
   paragraphThree: 'I like playing basketball There\'s just something about forgetting all your worries, deadlines, and whatever else is going on in your life, to focus on the simple task of putting a ball into a basket. It can be quite therapeutic and of course keeps me off my couch.',
-  paragraphFour: 'A big goal of mine is to learn Spanish. I primarily use Duolingo, spending about 20 minutes a day. Due to peer pressure, I listen to a lot of Reggaeton (although, I\'m not really proficient enough to understand most of it).',
+  paragraphFour: 'A big goal of mine is to learn Spanish. I can watch movies or shows in Spanish with Spanish subtitles and mostly understand. Due to peer pressure, I listen to a lot of Reggaeton (although, I\'m not really proficient enough to understand most of it).',
   resume: '/resume', // if no resume, the button will not show up
 };
 
 // EXPERIENCE DATA
 export const experiencesData = [
+  {
+    id: nanoid(),
+    img: amazon2,
+    organization: 'Amazon - Prime Video',
+    title: 'Software Development Engineer',
+    location: 'New York City, New York',
+    url: 'https://www.amazon.com/Amazon-Video/b/?&node=2858778011&ref=dvm_MLP_ROWNA_US_1',
+    date: 'Feb 2021 - Present',
+    color: '#00A8E1',
+    description:
+      "Part of the Prime Video Storefront Automation Org.",
+  },
   {
     id: nanoid(),
     img: utaustin,
@@ -53,7 +66,7 @@ export const experiencesData = [
   {
     id: nanoid(),
     img: amazon,
-    organization: 'Amazon',
+    organization: 'Amazon - Retail',
     title: 'Software Development Engineer Intern',
     location: 'S̶e̶a̶t̶t̶l̶e̶,̶ ̶W̶a̶s̶h̶i̶n̶g̶t̶o̶n̶ Remote',
     url: 'https://www.amazon.com/',

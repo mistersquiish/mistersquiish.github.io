@@ -28,7 +28,7 @@ function App() {
     <PortfolioProvider value={{ hero, about, experiences, projects, footer }}>
       <Hero />
       <About />
-      <Experiences />
+      <Experiences experiencesShort={experiencesData.slice(0, 2)}/>
       <Projects />
       <Footer footerMessage="Lottie image from pixeltrue.com"/>
     </PortfolioProvider>
