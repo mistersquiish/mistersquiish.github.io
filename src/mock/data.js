@@ -31,9 +31,12 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Currently a software engineer working on Prime Video at Amazon',
-  paragraphTwo: 'A self-proclaimed home chef, I enjoy watching Masterclass/Youtube cooking videos (favorite food show is Bon Appétit) and making home-cooked meals to nourish my friends and family. Popularly acclaimed dishes: Red-braised Chinese Pork Belly, Henry\'s Risotto, Guacamole, Roasted Salsa, European Style Beans, Chicken Schnitzel, Red Wine Braised Short Ribs, Oven Roasted Chicken',
-  paragraphThree: 'I like playing basketball There\'s just something about forgetting all your worries, deadlines, and whatever else is going on in your life, to focus on the simple task of putting a ball into a basket. It can be quite therapeutic and of course keeps me off my couch.',
-  paragraphFour: 'A big goal of mine is to learn Spanish. I can watch movies or shows in Spanish with Spanish subtitles and mostly understand. Due to peer pressure, I listen to a lot of Reggaeton (although, I\'m not really proficient enough to understand most of it).',
+  paragraphTwo:
+    "A self-proclaimed home chef, I enjoy watching Masterclass/Youtube cooking videos (favorite food show is Bon Appétit) and making home-cooked meals to nourish my friends and family. Popularly acclaimed dishes: Red-braised Chinese Pork Belly, Henry's Risotto, Guacamole, Roasted Salsa, European Style Beans, Chicken Schnitzel, Red Wine Braised Short Ribs, Oven Roasted Chicken",
+  paragraphThree:
+    "I like playing basketball There's just something about forgetting all your worries, deadlines, and whatever else is going on in your life, to focus on the simple task of putting a ball into a basket. It can be quite therapeutic and of course keeps me off my couch.",
+  paragraphFour:
+    "A big goal of mine is to learn Spanish. I spend an hour a day watching movies or shows in Spanish with Spanish subtitles. Due to peer pressure, I listen to a lot of Reggaeton (although, I'm not really proficient enough to understand most of it).",
   resume: '/resume', // if no resume, the button will not show up
 };
 
@@ -48,8 +51,7 @@ export const experiencesData = [
     url: 'https://www.amazon.com/Amazon-Video/b/?&node=2858778011&ref=dvm_MLP_ROWNA_US_1',
     date: 'Feb 2021 - Present',
     color: '#00A8E1',
-    description:
-      "Part of the Prime Video Storefront Automation Org.",
+    description: 'Part of the Prime Video Personalization Org.',
   },
   {
     id: nanoid(),
@@ -166,10 +168,8 @@ export const projectsData = [
     id: nanoid(),
     img: fifty4090club,
     title: '50-40-90 Club',
-    info:
-      'A website to track who is on track for a 50-40-90 NBA shooting season.',
-    info2:
-      'Built using React, Gatsby, Python for scheduled updates, and Firebase',
+    info: 'A website to track who is on track for a 50-40-90 NBA shooting season.',
+    info2: 'Built using React, Gatsby, Python for scheduled updates, and Firebase',
     url: 'https://504090club.info/',
     repo: '', // if no repo, the button will not show up
     achievement: '', // 161 confirmed
@@ -210,11 +210,12 @@ export const footerData = {
       url: '/tinder',
     },
   ],
-}
+};
 
 // CONTACT DATA
 export const contactData = {
-  whereToFind: "Due to COVID, I'm back at home usually trying out a new recipe in mom's kitchen or having friends over in my parent's backyard.",
-  contact: "Otherwise, best way to reach me is through my email: ",
+  whereToFind:
+    "Due to COVID, I'm back at home usually trying out a new recipe in mom's kitchen or having friends over in my parent's backyard.",
+  contact: 'Otherwise, best way to reach me is through my email: ',
   email: 'henryvuong@utexas.edu',
-}
+};
