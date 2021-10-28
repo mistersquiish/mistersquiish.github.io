@@ -32,11 +32,11 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Currently a software engineer working on Prime Video at Amazon',
   paragraphTwo:
-    "A self-proclaimed home chef, I enjoy watching Masterclass/Youtube cooking videos (favorite food show is Bon Appétit) and making home-cooked meals to nourish my friends and family. Popularly acclaimed dishes: Red-braised Chinese Pork Belly, Henry's Risotto, Guacamole, Roasted Salsa, European Style Beans, Chicken Schnitzel, Red Wine Braised Short Ribs, Oven Roasted Chicken",
+    "A self-proclaimed home chef, I enjoy watching Youtube cooking videos (favorite food show is Bon Appétit) and making home-cooked meals to nourish my friends and family. Popularly acclaimed dishes: Red-braised Chinese Pork Belly, Henry's Risotto, Guacamole, Roasted Salsa, European Style Beans, Chicken Schnitzel, Red Wine Braised Short Ribs, Oven Roasted Chicken. Although recently started eating pescatarian, so you won't find many of these in my kitchen.",
   paragraphThree:
     "I like playing basketball There's just something about forgetting all your worries, deadlines, and whatever else is going on in your life, to focus on the simple task of putting a ball into a basket. It can be quite therapeutic and of course keeps me off my couch.",
   paragraphFour:
-    "A big goal of mine is to learn Spanish. I spend an hour a day watching movies or shows in Spanish with Spanish subtitles. Due to peer pressure, I listen to a lot of Reggaeton (although, I'm not really proficient enough to understand most of it).",
+    "A big goal of mine is to learn Spanish. I spend 30 minutes a day watching movies or shows in Spanish with Spanish subtitles. Due to peer pressure, I listen to a lot of Reggaeton (although, I'm not really proficient enough to understand most of it).",
   resume: '/resume', // if no resume, the button will not show up
 };
 
@@ -51,7 +51,8 @@ export const experiencesData = [
     url: 'https://www.amazon.com/Amazon-Video/b/?&node=2858778011&ref=dvm_MLP_ROWNA_US_1',
     date: 'Feb 2021 - Present',
     color: '#00A8E1',
-    description: 'Part of the Prime Video Personalization Org.',
+    description:
+      "Working on delivery better content than Netflix and Hulu (we'll never have better content than HBO Max).",
   },
   {
     id: nanoid(),
@@ -162,17 +163,17 @@ export const projectsData = [
       'Was always something I wanted to do for my parents, and my parents really enjoyed the gift.',
     url: 'https://henryvuong.com/thank-you-mom-and-dad/',
     repo: 'https://github.com/mistersquiish/thank-you-mom-and-dad', // if no repo, the button will not show up
-    achievement: '190+ Visitors', // 161 confirmed
+    achievement: '200+ visitors', // 161 confirmed
   },
   {
     id: nanoid(),
     img: fifty4090club,
     title: '50-40-90 Club',
     info: 'A website to track who is on track for a 50-40-90 NBA shooting season.',
-    info2: 'Built using React, Gatsby, Python for scheduled updates, and Firebase',
+    info2: 'Built using React, Gatsby, Python for distributed job service, and Firebase',
     url: 'https://504090club.info/',
     repo: '', // if no repo, the button will not show up
-    achievement: '', // 161 confirmed
+    achievement: '2.6k page views since inception',
   },
 ];
 
