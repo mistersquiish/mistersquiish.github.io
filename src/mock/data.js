@@ -16,7 +16,7 @@ export const headData = {
   title: 'Henry Vuong | UT Austin Graduate', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description:
-    'Originally from Laredo Texas, Henry attended The University of Texas at Austin (UT) and obtained a Bachelors in Business Administration in Management Information Systems (MIS). This is Henrys personal website to host things he is comfortable with sharing.', // e.g: Welcome to my website
+    'Henry attended The University of Texas at Austin (UT) and obtained a Bachelors in Business Administration in Management Information Systems (MIS). This is Henrys personal website to host things he is comfortable with sharing.', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -30,13 +30,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Currently a software engineer working on Prime Video at Amazon',
-  paragraphTwo:
-    "A self-proclaimed home chef, I enjoy watching Youtube cooking videos (favorite food show is Bon Appétit) and making home-cooked meals to nourish my friends and family. Popularly acclaimed dishes: Red-braised Chinese Pork Belly, Henry's Risotto, Guacamole, Roasted Salsa, European Style Beans, Chicken Schnitzel, Red Wine Braised Short Ribs, Oven Roasted Chicken. Although recently started eating pescatarian, so you won't find many of these in my kitchen.",
-  paragraphThree:
-    "I like playing basketball There's just something about forgetting all your worries, deadlines, and whatever else is going on in your life, to focus on the simple task of putting a ball into a basket. It can be quite therapeutic and of course keeps me off my couch.",
-  paragraphFour:
-    "A big goal of mine is to learn Spanish. I spend 30 minutes a day watching movies or shows in Spanish with Spanish subtitles. Due to peer pressure, I listen to a lot of Reggaeton (although, I'm not really proficient enough to understand most of it).",
+  paragraphOne: 'Currently a software engineer II working on Prime Video at Amazon',
+  paragraphTwo: "Take me out for dinner for more info. I'm pescatarian.",
+  // paragraphThree:
+  //   "I like playing basketball There's just something about forgetting all your worries, deadlines, and whatever else is going on in your life, to focus on the simple task of putting a ball into a basket. It can be quite therapeutic and of course keeps me off my couch.",
+  // paragraphFour:
+  //   "A big goal of mine is to learn Spanish. I spend 30 minutes a day watching movies or shows in Spanish with Spanish subtitles. Due to peer pressure, I listen to a lot of Reggaeton (although, I'm not really proficient enough to understand most of it).",
   resume: '/resume', // if no resume, the button will not show up
 };
 
@@ -64,7 +63,7 @@ export const experiencesData = [
     date: 'Class of 2020',
     color: '#CC5500',
     description:
-      "I took my first CS class after my freshmen year, and I quickly fell in love with it. I soon began my career transition, and it has been a journey replete with pleasant surprises and moments more fulfilling than any previous. \nThe pickup basketball games, the late night 888 food runs, the adventures on 6th, and deep talks with my roommates are moments I will miss dearly (except waking up for class). UT helped me grow as a student but also helped me become a better and more mature person.\nThank you Mom and Dad, and Hook 'em 🤘.",
+      "The pickup basketball games, the late night 888 food runs, the adventures on 6th, and deep talks with my roommates are moments I will miss (except waking up for class). UT helped me grow as a student but also helped me become a better and more mature person.\nThank you Mom and Dad, and Hook 'em 🤘.",
   },
   {
     id: nanoid(),
@@ -112,7 +111,7 @@ export const experiencesData = [
     date: 'May 2019 - Aug 2019',
     color: '#00953F',
     description:
-      'Built a chatbot to relieve senior architects of basic requests. Created infrastructure-as-code templates and deployment pipelines for fast and consistent deployment. Houston is now my hometown for sports. Go Rockets 🚀',
+      'Built a chatbot to relieve senior architects of basic requests. Created infrastructure-as-code templates and deployment pipelines for fast and consistent deployment.',
   },
   {
     id: nanoid(),
@@ -151,7 +150,7 @@ export const projectsData = [
       'Never really expected it to take off, but it was fun learning the SwiftUI framework and actually launching it.',
     url: 'https://appadvice.com/app/hungrynow-app/1512893332',
     repo: 'https://github.com/mistersquiish/HungryNow', // if no repo, the button will not show up
-    achievement: '54 Downloads, 0 Active Users',
+    achievement: '',
   },
   {
     id: nanoid(),
@@ -163,7 +162,7 @@ export const projectsData = [
       'Was always something I wanted to do for my parents, and my parents really enjoyed the gift.',
     url: 'https://henryvuong.com/thank-you-mom-and-dad/',
     repo: 'https://github.com/mistersquiish/thank-you-mom-and-dad', // if no repo, the button will not show up
-    achievement: '200+ visitors', // 161 confirmed
+    achievement: '',
   },
   {
     id: nanoid(),
@@ -173,7 +172,7 @@ export const projectsData = [
     info2: 'Built using React, Gatsby, Python for distributed job service, and Firebase',
     url: 'https://504090club.info/',
     repo: '', // if no repo, the button will not show up
-    achievement: '2.6k page views since inception',
+    achievement: '',
   },
 ];
 
